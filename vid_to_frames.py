@@ -1,6 +1,6 @@
 
 import cv2
-vidcap = cv2.VideoCapture('world.mp4')
+vidcap = cv2.VideoCapture('/mnt/mars-beta/tochukwu/maestro/maestro_code/Endo_video/Endoscope-Video2.avi')
 success,image = vidcap.read()
 count = 1
 skip = 30
