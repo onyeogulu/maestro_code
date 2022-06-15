@@ -1,6 +1,5 @@
 import json
 import os
-from turtle import width
 
 def coco_to_yolo():
     inputTags = ["Crocodilegrasper","Yohangrasper","HookDiathermy","Marylandgrasper","Clipper","Scissors","Bagholder","Trocar"]
@@ -12,7 +11,7 @@ def coco_to_yolo():
     for frame_name in final_annots['frames']:
         if len(final_annots['frames'][frame_name])>0:
             txt_f_name = frame_name[:-4]
-            with open('yoloannos/'+txt_f_name+'.txt', 'w') as f:
+            with open('labels/'+txt_f_name+'.txt', 'w') as f:
                 for item in final_annots['frames'][frame_name]:
                     width = item['width']
                     height =item['height']
