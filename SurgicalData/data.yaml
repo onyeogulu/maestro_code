@@ -1,0 +1,5 @@
+train: /mnt/mars-beta/tochukwu/maestro/maestro_code/SurgicalData/train/
+val: /mnt/mars-beta/tochukwu/maestro/maestro_code/SurgicalData/valid/
+
+nc: 8
+names: ['Crocodilegrasper','Yohangrasper','HookDiathermy','Marylandgrasper','Clipper','Scissors','Bagholder','Trocar']
