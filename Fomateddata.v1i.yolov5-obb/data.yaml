@@ -1,0 +1,5 @@
+train: /mnt/mars-beta/tochukwu/maestro/maestro_code/Fomateddata.v1i.yolov5-obb/train
+val: /mnt/mars-beta/tochukwu/maestro/maestro_code/Fomateddata.v1i.yolov5-obb/train
+
+nc: 8
+names: ['Clipper', 'Crocodilegrasper', 'HookDiathermy', 'Marylandgrasper', 'Scissors', 'SurgicalInstrument', 'Trocar', 'Yohangrasper']

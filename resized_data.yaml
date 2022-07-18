@@ -1,0 +1,7 @@
+train: /mnt/mars-beta/tochukwu/maestro/maestro_code/Resizeddata_640/train
+val: /mnt/mars-beta/tochukwu/maestro/maestro_code/Resizeddata_640/valid
+test:  # test images (optional)
+
+# Classes
+nc: 8  # number of classes
+names: ['Crocodilegrasper','Yohangrasper','HookDiathermy','Marylandgrasper','Clipper','Scissors','Bagholder','Trocar']  # class names
